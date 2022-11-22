@@ -1,0 +1,23 @@
+$primary-brandColor: #423e3e;
+$secondary-brandColor: #FABF21;
+$gray-brandColor: #C2C6C8;
+$secondary-gray-brandColor: #475155;
+
+@mixin tablet {
+    @media only screen and (max-width:1024px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media only screen and (max-width:768px) {
+        @content;
+    }
+}
+
+
+// &.deneme {
+//     @include mixin.tablet {
+//         color: red;
+//     }
+// }
