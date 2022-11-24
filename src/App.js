@@ -1,10 +1,9 @@
 import HomePage from "./Pages/HomePage/HomePage";
-
+import { useRoutes } from "react-router-dom"
+import routes from './routes';
 function App() {
   return (
-    <div >
-      <HomePage />
-    </div>
+    useRoutes(routes)
   );
 }
 

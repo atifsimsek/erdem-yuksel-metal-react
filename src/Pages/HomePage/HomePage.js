@@ -58,7 +58,7 @@ const HomePage = () => {
                     <div className={styles.slide}>
                         <img className={styles.sliderImg} src={img1} alt="" />
                         <div className={styles.text}>
-                            <h1>Main Title</h1>
+                            <h1>Başlık 1</h1>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatem magni consequuntur <br /> blanditiis officiis laudantium vero illum quidem tempore eos.</p>
                         </div>
                         <div className={styles.overlay}>
@@ -67,7 +67,7 @@ const HomePage = () => {
                     <div className={styles.slide}>
                         <img className={styles.sliderImg} src={img2} alt="" />
                         <div className={styles.text}>
-                            <h1>Main Title</h1>
+                            <h1>Başlık 2</h1>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatem magni consequuntur <br /> blanditiis officiis laudantium vero illum quidem tempore eos.</p>
                         </div>
                         <div className={styles.overlay}>
@@ -76,7 +76,7 @@ const HomePage = () => {
                     <div className={styles.slide}>
                         <img className={styles.sliderImg} src={img3} alt="" />
                         <div className={styles.text}>
-                            <h1>Main Title</h1>
+                            <h1>Başlık 3</h1>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatem magni consequuntur <br /> blanditiis officiis laudantium vero illum quidem tempore eos.</p>
                         </div>
                         <div className={styles.overlay}>
@@ -85,7 +85,7 @@ const HomePage = () => {
                     <div className={styles.slide}>
                         <img className={styles.sliderImg} src={img4} alt="" />
                         <div className={styles.text}>
-                            <h1>Main Title</h1>
+                            <h1>Başlık 4</h1>
                             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatem magni consequuntur <br /> blanditiis officiis laudantium vero illum quidem tempore eos.</p>
                         </div>
                         <div className={styles.overlay}>
@@ -101,8 +101,8 @@ const HomePage = () => {
                     <img src={img5} alt="" />
                     <div className={styles.box}>
                         <div className={styles.description}>
-                            <h3>Neden Biz</h3>
-                            <h2>More than <span>50 year experience</span> in industry</h2>
+                            <h3>Neden Biz ?</h3>
+                            <h2>Başlık 2</h2>
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, et nemo mollitia voluptate, ipsam velit voluptas distinctio, enim beatae quasi autem vitae rerum ut similique saepe quibusdam corrupti sapiente sit doloremque fuga eius ratione incidunt! Sint quasi accusamus non incidunt magni ut recusandae reiciendis! Nam voluptate suscipit animi officia, earum quaerat, error quia magni esse delectus repellat tempore, quisquam eos. Expedita et itaque vero dicta quibusdam nulla, neque necessitatibus, adipisci facilis reiciendis ullam fugit cum corporis quia? Id, quia adipisci.
                             </p>

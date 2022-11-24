@@ -13,11 +13,11 @@ const Footer = () => {
           <h3>Açık Saatler</h3>
           <ul>
             <li>
-              <AiFillClockCircle />
+              <AiFillClockCircle size={17} />
               <span>Hafta İçi 08:00 - 17:00</span>
             </li>
             <li>
-              <AiFillClockCircle />
+              <AiFillClockCircle size={17} />
               <span>Hafta Sonu 08:00 - 12:00</span>
             </li>
           </ul>
@@ -25,10 +25,10 @@ const Footer = () => {
         <div className={styles.logo}>
           <img src={imgLogo} alt="" />
           <ul>
-            <li><FaFacebook /></li>
-            <li><FaInstagram /></li>
-            <li><FaTwitter /></li>
-            <li><FaLinkedin /></li>
+            <li><FaFacebook size={24} /></li>
+            <li><FaInstagram size={24} /></li>
+            <li><FaTwitter size={24} /></li>
+            <li><FaLinkedin size={24} /></li>
           </ul>
         </div>
         <div className={styles.contact}>
@@ -36,15 +36,15 @@ const Footer = () => {
           <ul>
             <li>
               <span>Adres</span>
-              <MdLocationOn />
+              <MdLocationOn size={17} />
             </li>
             <li>
               <span>example@gmail.com</span>
-              <FaPaperPlane />
+              <FaPaperPlane size={17} />
             </li>
             <li>
               <span>0 550 000 00 00</span>
-              <FaMobileAlt />
+              <FaMobileAlt size={17} />
             </li>
           </ul>
         </div>

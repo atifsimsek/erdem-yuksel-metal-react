@@ -3,8 +3,8 @@
 .footer {
     margin-top: 15rem;
     width: 100%;
-    background-color: #17172D;
-    height: 250px;
+    background-color: mixin.$footer-color;
+    height: 280px;
     color: #fff;
 
     .footerContainer {
@@ -34,8 +34,12 @@
                     padding: 5px;
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
                     font-size: 14px;
+
+                    svg {
+                        color: mixin.$primary-color;
+                    }
+
 
                     span {
                         padding: 0 20px;
@@ -55,12 +59,41 @@
             img {
                 width: 250px;
                 opacity: 60%;
+                margin-bottom: 1.5rem;
+                margin-right: 5px;
             }
 
             ul {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                column-gap: 1.5rem;
+
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.8rem;
+                    opacity: 90%;
+                    border: 1px solid #FF5C17;
+                    transition: 0.3s all ease;
+                    cursor: pointer;
+
+                    svg {
+                        color: mixin.$primary-color;
+                    }
+
+                    &:hover {
+                        background-color: mixin.$primary-color;
+                        transform: translateY(-7px);
+                        svg{
+                            color: #fff;
+                        }
+                    }
+                }
+
+
             }
         }
 
@@ -69,7 +102,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            row-gap: 1rem;
+            row-gap: 0.5rem;
+            margin-top: 0.8rem;
 
 
             h3 {
@@ -84,8 +118,12 @@
                     padding: 5px;
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
+                    justify-content: flex-end;
                     font-size: 14px;
+
+                    svg {
+                        color: mixin.$primary-color;
+                    }
 
                     span {
                         padding: 0 20px;
