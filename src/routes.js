@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact/Contact"
 const routes = [
     {
         name: "home",
-        path: "/erdem-yuksel-metal-react/",
+        path: "/",
         children: [
             {
                 name:"index",
