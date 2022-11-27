@@ -5,7 +5,7 @@ const HomeLayout = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/home" end >Anasayfa</NavLink>
+          <NavLink to="/" end >Anasayfa</NavLink>
         </li>
         <li>
           <NavLink to="/about">Hakkımızda</NavLink>

@@ -1,0 +1,39 @@
+@use "../../assets//Scss/mixin.scss" as mixin;
+
+.header {
+    background-color: mixin.$primary-color;
+    height: 80px;
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+}
+
+.products {
+    width: 90%;
+    margin: 3rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+     .card {
+        display: flex;
+
+        padding: 1.5rem;
+
+        img {
+            width: 200px;
+        }
+
+        .text {
+            padding: 1rem;
+
+            p{
+                text-align: justify;
+                font-size: 14px;
+               
+            }
+        }
+
+    }
+
+}

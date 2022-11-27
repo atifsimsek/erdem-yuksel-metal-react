@@ -5,14 +5,110 @@
     height: 80px;
     position: fixed;
     inset: 0;
+    z-index: 50;
 }
 
-.imgBox {
-    height: 500px;
+.aboutBox {
+    width: 80%;
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 
-    img {
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
+    .aboutText {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 1.5rem;
+        gap: 1rem;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .btn41 {
+            padding: 10px 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            background: transparent;
+            outline: none !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+
+        .btn43 {
+            width: 200px;
+            margin-top: 1rem;
+            border: 3px solid mixin.$primary-color;
+            z-index: 1;
+            color: black;
+            font-weight: bold;
+
+            &:after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 0;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                background: mixin.$primary-color;
+                transition: all 0.3s ease;
+            }
+
+            &:hover {
+                color: white;
+            }
+
+            &:hover:after {
+                top: auto;
+                bottom: 0;
+                height: 100%;
+            }
+
+        }
+
+
     }
+
+    .aboutImage {
+        height: 550px;
+        width: 32%;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            border-radius: 5px;
+        }
+
+        .card {
+            position: absolute;
+            border: 3px solid rgb(107, 105, 104);
+            background-color: #827675e5;
+            padding: 2rem;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            border-radius: 10px;
+            bottom: -30px;
+            right: 120px;
+            width: 400px;
+            color: rgba(255, 255, 255, 0.964)
+        }
+
+    }
+
+
+
 }
