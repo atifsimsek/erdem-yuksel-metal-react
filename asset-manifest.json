@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/erdem-yuksel-metal-react/static/css/main.18a67be2.css",
-    "main.js": "/erdem-yuksel-metal-react/static/js/main.2915f962.js",
+    "main.css": "/erdem-yuksel-metal-react/static/css/main.cadd0336.css",
+    "main.js": "/erdem-yuksel-metal-react/static/js/main.9005c807.js",
     "static/media/pexels-anamul-rezwan-1145434.jpg": "/erdem-yuksel-metal-react/static/media/pexels-anamul-rezwan-1145434.639fce32b6f68e9ddd0d.jpg",
     "static/media/c-d-x-J6fmT2TosSA-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/c-d-x-J6fmT2TosSA-unsplash.d743b7aa52e8312c814b.jpg",
     "static/media/c-d-x-RE4KOQzKig4-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/c-d-x-RE4KOQzKig4-unsplash.cd8228021293f062e837.jpg",
     "static/media/clayton-cardinalli-hkJNx0EDbjE-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/clayton-cardinalli-hkJNx0EDbjE-unsplash.4f157d44268ebc5dbc4f.jpg",
     "static/media/spencer-davis-SVfXlChg9HI-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/spencer-davis-SVfXlChg9HI-unsplash.8cfdf4813b078c2515e9.jpg",
     "static/media/ant-rozetsky-SLIFI67jv5k-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/ant-rozetsky-SLIFI67jv5k-unsplash.f53693390f6004a857bd.jpg",
+    "static/media/call-me-lamb-xjL4qcXPpQQ-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/call-me-lamb-xjL4qcXPpQQ-unsplash.063905677d0b4425df8b.jpg",
     "static/media/aurelien-romain-DB_q6rPFnBM-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/aurelien-romain-DB_q6rPFnBM-unsplash.9eebe895ad452d8da617.jpg",
     "static/media/christopher-burns-8KfCR12oeUM-unsplash.jpg": "/erdem-yuksel-metal-react/static/media/christopher-burns-8KfCR12oeUM-unsplash.c43eedafc4b1caa19743.jpg",
     "static/media/logo-yazisiz-removebg-preview.png": "/erdem-yuksel-metal-react/static/media/logo-yazisiz-removebg-preview.9ecf23503fc75c11fe42.png",
@@ -16,11 +17,11 @@
     "static/media/slick.ttf": "/erdem-yuksel-metal-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/erdem-yuksel-metal-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/erdem-yuksel-metal-react/index.html",
-    "main.18a67be2.css.map": "/erdem-yuksel-metal-react/static/css/main.18a67be2.css.map",
-    "main.2915f962.js.map": "/erdem-yuksel-metal-react/static/js/main.2915f962.js.map"
+    "main.cadd0336.css.map": "/erdem-yuksel-metal-react/static/css/main.cadd0336.css.map",
+    "main.9005c807.js.map": "/erdem-yuksel-metal-react/static/js/main.9005c807.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a67be2.css",
-    "static/js/main.2915f962.js"
+    "static/css/main.cadd0336.css",
+    "static/js/main.9005c807.js"
   ]
 }
