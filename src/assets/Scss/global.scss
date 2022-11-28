@@ -16,7 +16,6 @@ html {
     display: none;
 }
 
-
 .container {
     width: 85%;
     margin: 0 auto;
@@ -28,4 +27,22 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+
+.active {
+
+    &::after {
+        content: "";
+        height: 4px;
+        width: 100%;
+        background: #e0e0e0;
+        position: absolute;
+        left: 0;
+        bottom: -11px;
+        transition: 0.5s;
+
+
+    }
+    
 }

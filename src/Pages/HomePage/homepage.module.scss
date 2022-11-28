@@ -4,11 +4,13 @@
 
     width: auto;
 
+
+
     .sliderContiner {
 
         position: relative;
 
-     
+
 
         .slide {
             width: 100%;
@@ -40,6 +42,11 @@
 
                 h1 {
                     font-size: 50px;
+
+                    @include mixin.mobile {
+                        font-size: 40px;
+
+                    }
                 }
 
                 p {
@@ -88,11 +95,24 @@
         color: mixin.$primary-color;
 
 
+
+        @include mixin.tablet {
+            position: relative;
+
+        }
+
+
+
         .container {
             width: 85%;
             height: 100%;
             margin: 0 auto;
             display: flex;
+
+            @include mixin.tablet {
+                flex-direction: column;
+
+            }
 
             img {
                 margin-top: -3rem;
@@ -100,6 +120,22 @@
                 width: 400px;
                 height: 500px;
                 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+                @include mixin.tablet {
+
+                    width: 250px;
+                    height: 320px;
+                    margin-top: -7rem;
+                    margin-right: 0;
+
+                }
+
+
+                @include mixin.mobile {
+
+                    display: none;
+
+                }
             }
 
 
@@ -108,11 +144,25 @@
                 display: grid;
                 padding: 1rem;
 
+                @include mixin.tablet {
+                    margin-top: 3rem;
+                }
+
+
+                @include mixin.mobile {
+                    margin-top: 1.5rem;
+
+                }
+
                 .description {
                     padding-top: 1.5rem;
                     display: flex;
                     flex-direction: column;
                     row-gap: 2rem;
+
+                    @include mixin.tablet {
+                        row-gap: 1.5rem;
+                    }
 
                     h3 {}
 
@@ -121,17 +171,39 @@
                     p {
                         color: #eeee;
                         font-size: 14px;
+                        text-align: justify;
 
                     }
                 }
 
                 .icons {
                     display: flex;
-
                     column-gap: 2rem;
                     align-self: flex-start;
                     margin-bottom: 2rem;
                     color: white;
+
+                    @include mixin.tablet {
+                        flex-direction: column;
+                        position: absolute;
+                        top: 5rem;
+                        right: 7rem;
+                        gap: 10px;
+
+                    }
+
+
+                    @include mixin.mobile {
+                        display: flex;
+                        flex-direction: row;
+                        bottom: -360px;
+                        left: 120px;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 0.5rem;
+                    }
+
+
 
                     div {
                         display: flex;
@@ -139,6 +211,13 @@
                         background-color: mixin.$primary-color;
                         padding: 1rem;
                         border-radius: 5px;
+
+                        @include mixin.mobile {
+                            font-size: 10px;
+                            width: 120px;
+                            padding: 0.5rem;
+
+                        }
 
                         span {
                             margin-left: 5px;
@@ -156,10 +235,6 @@
 
 
         }
-
-
-
-
 
     }
 

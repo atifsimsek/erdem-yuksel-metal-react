@@ -39,6 +39,29 @@ const Projects = () => {
         cssEase: "linear",
         nextArrow: <NextBtn />,
         prevArrow: <PrevBtn />,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 3,
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            },
+        ]
     }
 
 

@@ -9,7 +9,7 @@
 }
 
 .products {
-    width: 90%;
+    width: 80%;
     margin: 6rem auto -4rem auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -21,6 +21,20 @@
         justify-content: center;
         padding: 1.2rem;
         position: relative;
+
+        @include mixin.mobile {
+            flex-direction: column;
+            margin-bottom: -3rem;
+
+        }
+
+        @include mixin.tablet {
+        
+            margin-bottom: -3rem;
+
+        }
+
+
 
         .Imgbox {
             img {
@@ -41,6 +55,19 @@
                 z-index: 10;
                 background-color: mixin.$primary-color;
                 opacity: 80%;
+
+
+                @include mixin.tablet {
+                    top: 100px;
+                    left: 30px;
+                }
+                @include mixin.mobile {
+                    top: 120px;
+                    left: 10px;
+
+
+                }
+
             }
 
         }
@@ -52,7 +79,13 @@
                 margin-top: 1rem;
                 text-align: justify;
                 font-size: 14px;
+                color: rgb(78, 75, 75);
 
+                @include mixin.tablet {
+                    font-size: 12px;
+
+
+                }
             }
         }
 

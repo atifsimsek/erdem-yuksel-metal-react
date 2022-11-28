@@ -42,7 +42,7 @@ const HomePage = () => {
     var settings = {
         dots: false,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         arrows: false,
         speed: 500,
@@ -52,6 +52,8 @@ const HomePage = () => {
     };
     return (
         <div className={styles.homepage}>
+
+            {/* ------ Main Slider Start ------ */}
 
             <section className={styles.sliderContiner}>
                 <Slider {...settings}>
@@ -96,6 +98,10 @@ const HomePage = () => {
             </section>
             <Header />
 
+            {/* ------ Main Slider End ------ */}
+
+            {/* ------ Why Us ? Section Start ------ */}
+
             <section className={styles.containerWhy}>
                 <div className={styles.container}>
                     <img src={img5} alt="" />
@@ -104,7 +110,7 @@ const HomePage = () => {
                             <h3>Neden Biz ?</h3>
                             <h2>Başlık 2</h2>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, et nemo mollitia voluptate, ipsam velit voluptas distinctio, enim beatae quasi autem vitae rerum ut similique saepe quibusdam corrupti sapiente sit doloremque fuga eius ratione incidunt! Sint quasi accusamus non incidunt magni ut recusandae reiciendis! Nam voluptate suscipit animi officia, earum quaerat, error quia magni esse delectus repellat tempore, quisquam eos. Expedita et itaque vero dicta quibusdam nulla, neque necessitatibus, adipisci facilis reiciendis ullam fugit cum corporis quia? Id, quia adipisci.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, et nemo mollitia voluptate, ipsam velit voluptas distinctio, enim beatae quasi autem vitae rerum ut similique saepe quibusdam corrupti sapiente sit doloremque fuga eius ratione incidunt! Sint quasi accusamus non incidunt magni ut recusandae reiciendis! Nam voluptate suscipit animi officia, earum quaerat, error quia magni esse delectus repellat tempore, quisquam eos. Expedita et itaque vero dicta quibusdam nulla, neque necessitatibus, adipisc.
                             </p>
                         </div>
                         <div className={styles.icons}>
@@ -126,6 +132,8 @@ const HomePage = () => {
 
                 </div>
             </section>
+
+            {/* ------ Why Us ? Section End ------ */}
             <Projects />
             <Footer />
 

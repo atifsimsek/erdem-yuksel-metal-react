@@ -20,6 +20,7 @@
         right: -30px;
 
     }
+
     .arrowPrev {
         position: absolute;
         top: 40%;
@@ -33,6 +34,11 @@
         margin-top: 0.5rem;
         margin-bottom: 1.5rem;
         color: mixin.$primary-color;
+
+        @include mixin.mobile {
+            font-size: 25px;
+        }
+
     }
 
     .projectContainer {

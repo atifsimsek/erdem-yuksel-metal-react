@@ -7,12 +7,26 @@
     height: 280px;
     color: #fff;
 
+    @include mixin.mobile {
+        height: 600px;
+    }
+
+
+
+
     .footerContainer {
         height: 100%;
         width: 85%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+
+        @include mixin.mobile {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
 
 
         .hours {
@@ -26,6 +40,10 @@
             h3 {
                 font-size: 16px;
                 align-self: flex-start;
+
+                @include mixin.mobile {
+                    align-self: center;
+                }
 
             }
 
@@ -61,6 +79,16 @@
                 opacity: 60%;
                 margin-bottom: 1.5rem;
                 margin-right: 5px;
+
+                @include mixin.mobile {
+                    width: 200px;
+                    margin: 1.5rem 0px -0.5rem 1rem !important;
+                }
+
+                @include mixin.tablet {
+                    margin-top: -1rem;
+
+                }
             }
 
             ul {
@@ -80,14 +108,23 @@
                     transition: 0.3s all ease;
                     cursor: pointer;
 
+                    @include mixin.tablet {
+
+                        padding: 0.5rem;
+                        margin-top: 1.7rem;
+
+                    }
+
                     svg {
                         color: mixin.$primary-color;
+
                     }
 
                     &:hover {
                         background-color: mixin.$primary-color;
                         transform: translateY(-7px);
-                        svg{
+
+                        svg {
                             color: #fff;
                         }
                     }
@@ -111,6 +148,11 @@
                 font-size: 16px;
                 align-self: flex-end;
 
+                @include mixin.mobile {
+                    margin: 1.2rem 0px;
+                    align-self: center;
+                }
+
             }
 
             ul {
@@ -121,12 +163,26 @@
                     justify-content: flex-end;
                     font-size: 14px;
 
+                    @include mixin.mobile {
+                        justify-content: flex-start;
+                    }
+
+
                     svg {
                         color: mixin.$primary-color;
+
+                        @include mixin.mobile {
+                            order: 1;
+                            align-self: flex-start;
+                        }
                     }
 
                     span {
                         padding: 0 20px;
+
+                        @include mixin.mobile {
+                            order: 2;
+                        }
                     }
 
                 }
