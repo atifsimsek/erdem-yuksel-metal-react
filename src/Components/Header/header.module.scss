@@ -13,20 +13,7 @@
 
     transition: 0.5s all ease;
 
-    .logoNav {
-
-
-        &::after {
-            display: none;
-
-        }
-
-        img {
-            width: 120px;
-        }
-
-
-    }
+ 
 
     .headerContainer {
 
@@ -39,6 +26,21 @@
             align-items: center;
             justify-content: center;
             color: #fff;
+
+            .logoNav {
+
+
+                &::after {
+                    display: none;
+        
+                }
+        
+                img {
+                    width: 120px;
+                }
+        
+        
+            }
 
             h4 {
 
