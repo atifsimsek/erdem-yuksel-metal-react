@@ -37,7 +37,7 @@ const Header = () => {
     <div className={`${styles.header} ${fixed && styles.headerFixed} `}>
       <div className={`${styles.headerContainer} container`}>
         <span>
-          <img src={logo} alt="" />
+          <NavLink className={styles.logoNav} to="/erdem-yuksel-metal-react/" ><img src={logo} alt="" /></NavLink>
           <h4>Erdem Yüksel Metal</h4>
         </span>
         <nav ref={navRef}>

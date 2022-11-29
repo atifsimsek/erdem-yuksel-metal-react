@@ -13,6 +13,20 @@
 
     transition: 0.5s all ease;
 
+    .logoNav {
+
+
+        &::after {
+            display: none;
+
+        }
+
+        img {
+            width: 120px;
+        }
+
+
+    }
 
     .headerContainer {
 
@@ -35,9 +49,8 @@
 
             }
 
-            img {
-                width: 120px;
-            }
+
+
 
 
         }
@@ -65,10 +78,10 @@
 
         }
 
-        .hideButton{
+        .hideButton {
             visibility: hidden;
         }
-     
+
 
 
         .navClose {
@@ -84,7 +97,7 @@
 
         }
 
-         // ----- Responsive Header End -----
+        // ----- Responsive Header End -----
 
 
         nav {
@@ -102,7 +115,7 @@
                 transform: translateY(-100vh);
             }
 
-    
+
 
             ul {
                 display: flex;
