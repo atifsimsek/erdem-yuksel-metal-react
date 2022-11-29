@@ -42,7 +42,7 @@ const HomePage = () => {
     var settings = {
         dots: false,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         arrows: false,
         speed: 500,

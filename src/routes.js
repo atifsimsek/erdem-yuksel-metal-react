@@ -19,7 +19,7 @@ const routes = [
             },
             {
                 name: "about",
-                path: "/about",
+                path: "about",
                 element: <About />
             },
             {

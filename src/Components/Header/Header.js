@@ -43,19 +43,19 @@ const Header = () => {
         <nav ref={navRef}>
           <ul>
             <li>
-              <NavLink to="/react-breaking-bad-app/quotes"  >Anasayfa</NavLink>
+              <NavLink to="/erdem-yuksel-metal-react/" end  >Anasayfa</NavLink>
 
             </li>
             <li>
-              <NavLink to="/react-breaking-bad-app/quotes/about" >Hakkımızda</NavLink>
+              <NavLink to="/erdem-yuksel-metal-react/about" end >Hakkımızda</NavLink>
 
             </li>
             <li>
-              <NavLink to="/react-breaking-bad-app/quotes/products" >Ürünler</NavLink>
+              <NavLink to="/erdem-yuksel-metal-react/products" end >Ürünler</NavLink>
 
             </li>
             <li>
-              <NavLink to="/react-breaking-bad-app/quotes/contact" >İletişim</NavLink>
+              <NavLink to="/erdem-yuksel-metal-react/contact" end >İletişim</NavLink>
             </li>
           </ul>
           <button className={`${styles.navClose} ${styles.navBtn}`} onClick={toogleMenu} ><VscChromeClose size={28} /></button>
