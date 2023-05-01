@@ -4,17 +4,16 @@ $footer-color: #19192a;
 $secondary-gray-brandColor: #475155;
 
 @mixin tablet {
-    @media only screen and (max-width:1024px) {
-        @content;
-    }
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
 }
 
 @mixin mobile {
-    @media only screen and (max-width:768px) {
-        @content;
-    }
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
 }
-
 
 // &.deneme {
 //     @include mixin.tablet {

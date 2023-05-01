@@ -1,48 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
-    background-color: rgba(238, 238, 238, 0.963);
+  background-color: rgba(238, 238, 238, 0.963);
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .active {
-
-    &::after {
-        content: "";
-        height: 4px;
-        width: 100%;
-        background: #e0e0e0;
-        position: absolute;
-        left: 0;
-        bottom: -11px;
-        transition: 0.5s;
-
-
-    }
-    
+  &::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: #e0e0e0;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    transition: 0.5s;
+  }
 }

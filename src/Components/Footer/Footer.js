@@ -1,9 +1,15 @@
-import styles from "./footer.module.scss"
-import imgLogo from "../../assets/img/logo-yazisiz-removebg-preview.png"
-import { MdLocationOn } from "react-icons/md"
-import { AiFillClockCircle } from "react-icons/ai"
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaMobileAlt, FaPaperPlane } from "react-icons/fa"
-
+import styles from "./footer.module.scss";
+import imgLogo from "../../assets/img/logo-yazisiz-removebg-preview.png";
+import { MdLocationOn } from "react-icons/md";
+import { AiFillClockCircle } from "react-icons/ai";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaMobileAlt,
+  FaPaperPlane,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,10 +31,18 @@ const Footer = () => {
         <div className={styles.logo}>
           <img src={imgLogo} alt="" />
           <ul>
-            <li><FaFacebook size={24} /></li>
-            <li><FaInstagram size={24} /></li>
-            <li><FaTwitter size={24} /></li>
-            <li><FaLinkedin size={24} /></li>
+            <li>
+              <FaFacebook size={24} />
+            </li>
+            <li>
+              <FaInstagram size={24} />
+            </li>
+            <li>
+              <FaTwitter size={24} />
+            </li>
+            <li>
+              <FaLinkedin size={24} />
+            </li>
           </ul>
         </div>
         <div className={styles.contact}>
@@ -50,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
